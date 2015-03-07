@@ -34,11 +34,3 @@ $('li.talks').on('click', function (event) {
 $('li.playlists').on('click', function (event) {
     playlists.load();
 });
-
-$('li.quotes').on('click', function (event) {
-    quotes.load();
-});
-
-$('li.blog_posts').on('click', function (event) {
-    blog_posts.load();
-});
