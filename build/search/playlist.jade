@@ -2,7 +2,8 @@
    Created by jake on 3/6/15.
 
 each result in object
-    h1= result.playlist.title
+    a(href="#", onclick="playlists.getPlaylist(" + result.playlist.id + ")")
+        h1= result.playlist.title
     p= result.playlist.description
     pre= JSON.stringify(result.playlist, null, 2)
     hr
