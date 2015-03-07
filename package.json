@@ -1,0 +1,5 @@
+{
+  "name": "ted-jquery",
+  "description": "This application uses client-side JQuery to access my ted-api-wrapper application in order to make queries against the TED API",
+  "author": "Jacob Smith"
+}

@@ -1,0 +1,6 @@
+each object in objects
+    a(href="#", onclick="quotes.getQuote(" + object.quote.id + ")")
+        h1= object.quote.name
+    p !{ object.quote.description }
+    pre= JSON.stringify(object.quote)
+    hr

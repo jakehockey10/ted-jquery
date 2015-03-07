@@ -1,0 +1,9 @@
+//
+   Created by jake on 3/6/15.
+
+each result in object
+    a(href=result.wordpress_post.guid)
+        h1= result.wordpress_post.post_title
+    !{result.wordpress_post.post_content}
+    pre= JSON.stringify(result.wordpress_post, null, 2)
+    hr

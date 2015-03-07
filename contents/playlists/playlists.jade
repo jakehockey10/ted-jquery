@@ -1,0 +1,6 @@
+each object in objects
+    a(href="#", onclick="playlists.getPlaylist(" + object.playlist.id + ")")
+        h1= object.playlist.title
+    p !{ object.playlist.description }
+    pre= JSON.stringify(object.playlist)
+    hr
