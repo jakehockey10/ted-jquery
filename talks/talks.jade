@@ -1,0 +1,6 @@
+each object in objects
+    a(href="#", onclick="talks.getTalk(" + object.talk.id + ")")
+        h1= object.talk.name
+    p !{ object.talk.description }
+    pre= JSON.stringify(object.talk)
+    hr
