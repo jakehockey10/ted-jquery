@@ -1,4 +1,4 @@
 ---
-title: Twitter
+title: TED JQuery
 template: layout.jade
 ---
